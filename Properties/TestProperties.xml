@@ -1,0 +1,57 @@
+﻿<!--﻿<?xml version="1.0" encoding="UTF-8" ?>-->
+
+<Environments>
+
+  <Environment Name="Prod" Active="true">
+
+
+    <Browser>
+
+      <BrowserName>chrome</BrowserName>
+
+    </Browser>
+
+    <!--GUI - Front End details-->
+
+    <UserInterface>
+
+      <!--Testing against Prod environment-->
+
+      <URL>https://www.globalsqa.com/demo-site/draganddrop/#Photo%20Manager</URL>
+
+    </UserInterface>
+
+
+
+    <!--Test data and configuration details-->
+
+    <TestData>
+
+      <DataPath>data\</DataPath>
+
+    </TestData>
+
+
+    <!--Test execution configuration details-->
+
+    <Execution>
+
+      <ResultsDirectory>C:\Progressive_Edge</ResultsDirectory>
+
+    </Execution>
+
+
+
+    <!--Selenium server details-->
+
+    <SeleniumGrid>
+
+      <URL>http://localhost:4444/wd/hub</URL>
+
+    </SeleniumGrid>
+
+  </Environment>
+
+
+
+</Environments>
